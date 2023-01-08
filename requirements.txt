@@ -4,6 +4,5 @@ pandas
 numpy
 streamlit
 datetime
-webbrowser
 pyparsing
 haversine
