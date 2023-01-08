@@ -5,3 +5,4 @@ Pillow
 pyparsing
 scikit_learn
 streamlit
+lxml
