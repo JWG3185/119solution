@@ -2,6 +2,7 @@
 # import tkinter
 import lxml
 import certifi
+import ssl
 import streamlit as st
 import pandas as pd
 from datetime import datetime
