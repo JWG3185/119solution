@@ -1,6 +1,7 @@
 # 프로토타입 코드
 # import tkinter
 import lxml
+import certifi
 import streamlit as st
 import pandas as pd
 from datetime import datetime
