@@ -1,6 +1,7 @@
 # 프로토타입 코드
 # import tkinter
 import lxml
+import os
 import certifi
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -316,8 +317,8 @@ with tab2:
                 url = url["길찾기"].values[0]
                 url1 = "http://map.naver.com/v5/directions/14364913.508788805,4179550.113085119,%EB%B6%80%EC%82%B0%EC%97%AD%20%EA%B2%BD%EB%B6%80%EC%84%A0(%EA%B3%A0%EC%86%8D%EC%B2%A0%EB%8F%84),13479631,PLACE_POI/14384306.532939654,4195994.669499056,%EA%B8%B0%EC%9E%A5%EB%B3%91%EC%9B%90,11693744,PLACE_POI/-/car?c=14367153.5700837,4187466.8079408,11,0,0,0,dh"       
 # st.write(url)
-                webbrowser.open_new(url1)  # 현위치를 부산역으로 설정했습니다.
-    
+#                 webbrowser.open_new(url1)  # 현위치를 부산역으로 설정했습니다.
+                os.system('explorer http://blindfish.tistory.com')
     with co2:
         st.write("응급실연락처")
         st.write("="*15)
