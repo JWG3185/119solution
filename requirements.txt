@@ -6,5 +6,3 @@ pyparsing
 scikit_learn
 streamlit
 lxml
-certifi
-ssl
