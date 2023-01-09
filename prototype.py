@@ -1,21 +1,15 @@
 # 프로토타입 코드
-# import tkinter
+import webbrowser
 import lxml
-import os
-import certifi
-import ssl
-ssl._create_default_https_context = ssl._create_unverified_context
 import streamlit as st
 import pandas as pd
 from datetime import datetime
 import numpy as np
 import warnings
-from PIL import Image
-from PIL import ImageDraw
-# from tkinter.tix import COLUMN
+
 from pyparsing import empty
 from haversine import haversine
-import webbrowser
+
 # import time
 st.set_page_config(layout="wide")
 
