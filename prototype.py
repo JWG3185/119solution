@@ -315,8 +315,7 @@ with tab2:
                 
                 url = navi.loc[navi["병원명"] == name, :]
                 url = url["길찾기"].values[0]
-                print(url)
-                print('pd')
+                st.write(url)
                 webbrowser.open_new(url)  # 현위치를 부산역으로 설정했습니다.
                 
                 
