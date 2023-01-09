@@ -276,7 +276,7 @@ with tab1:
 #                     st.write(result1[["병원명", "거리", "응급실수", "수술실수", "응급실포화상태"]])
 
 with tab2:
-    navi = pd.read_excel("navi1.xlsx")
+    navi = pd.read_excel("navi.xlsx")
     first = st.selectbox('질환', ("뇌경색", '뇌출혈', '신생아', '중증화상', "심근경색", "복부손상", "사지접합", "응급내시경", "응급투석", "조산산모"))
 #     if second == "중증질환 아님":
 #         result1 = df_er
@@ -312,10 +312,10 @@ with tab2:
                 url = url["길찾기"].values[0]
             
 #                 browser = webdriver.Chrome()
-#                 driver = webdriver.Edge('chromedirver')
-#                 driver.get(url)
+                driver = webdriver.Edge("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
+                driver.get(url)
 #                 browser.get(url)
-                webbrowser.open(url)  # 현위치를 부산역으로 설정했습니다.
+#                 webbrowser.open(url)  # 현위치를 부산역으로 설정했습니다.
                 
                 
 #                 os.system('explorer http://blindfish.tistory.com')
