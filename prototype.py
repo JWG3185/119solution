@@ -315,10 +315,9 @@ with tab2:
                 
                 url = navi.loc[navi["병원명"] == name, :]
                 url = url["길찾기"].values[0]
-                st.write(url)
                 print(url)
                 print('pd')
-                webbrowser.open_new(url1)  # 현위치를 부산역으로 설정했습니다.
+                webbrowser.open_new(url)  # 현위치를 부산역으로 설정했습니다.
                 
                 
 #                 os.system('explorer http://blindfish.tistory.com')
