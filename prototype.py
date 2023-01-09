@@ -312,9 +312,10 @@ with tab2:
                 url = url["길찾기"].values[0]
             
 #                 browser = webdriver.Chrome()
-                
+                driver = webdriver.Chrome('chromedirver')
+                driver.get(url)
 #                 browser.get(url)
-                webbrowser.get("google-chrome").open(url)  # 현위치를 부산역으로 설정했습니다.
+#                 webbrowser.get("google-chrome").open(url)  # 현위치를 부산역으로 설정했습니다.
                 
                 
 #                 os.system('explorer http://blindfish.tistory.com')
