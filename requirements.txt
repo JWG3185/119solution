@@ -6,3 +6,4 @@ pyparsing
 scikit_learn
 streamlit
 lxml
+openpyxl
